@@ -1,0 +1,14 @@
+Primeiro Repositório Git e Git Hub:
+
+
+No Git Hub Desktop --> Create New Repositório --> Coloque o nome exato da pasta e o caminho da pasta que agrupa ela
+
+Agora todos os arquivos estão disponíveis em "History".
+
+Para enviar esses arquivos para o GitHub, clique em PUBLISH REPOSITORY.
+
+para ser possível compartilhar o código e hospedar o site, desmarque KEEP THIS CODE PRIVATE. (pois isso torna o código púbico)
+
+
+É bom que o git-desktop, já cria o repositório no GitHub automaticamente.
+
