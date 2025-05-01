@@ -1,0 +1,5 @@
+Conteúdos do Módulo 3
+
+-hospedar sites por meio do Git Pages
+- criar um site prático com imagens paralax
+- Tabelas

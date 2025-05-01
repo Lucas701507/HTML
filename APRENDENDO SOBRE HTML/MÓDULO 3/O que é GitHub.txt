@@ -1,0 +1,9 @@
+O que é GitHub?
+
+Git: guarda e controla as versões, mas apenas no seu computador.
+
+Git = repositório local (na máquina)
+GitHub = Repositório remoto (Na nuvem)
+
+
+Git e Git Hub será uma espécie de Drive para guardar seus projetos, eles também apresentam outras funções que precisam ser exploradas, mas entre elas a principal é a possibilidade de mais pessoas trabalharem juntas no mesmo projeto. O GitHub possibilita hospedar sites também, o Git foi criado pelo mesmo criador do Linux, já o GitHub foi criado por um grupo de pessoas e posteriormente comprado pela Microsoft.
