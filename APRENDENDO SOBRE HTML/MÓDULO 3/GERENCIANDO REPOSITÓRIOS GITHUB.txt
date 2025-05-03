@@ -1,0 +1,22 @@
+GERENCIANDO REPOSITÓRIOS GITHUB
+
+
+É possível abrir o repositório direto no Visual Studio Code com OPEN IN VISUAL STUDIO CODE.
+
+
+🔹 O que é um commit?
+Um commit é o ato de salvar um conjunto de alterações no código dentro de um sistema de controle de versão, como o Git. Ele registra o estado do projeto naquele momento, com uma descrição do que foi feito.
+
+
+
+Fazendo alterações e deixando salvo: 
+Pelo o que eu entendi, faz a alteração, vai ao GitHub desktop, vai estar disponível uma notificação de que um commit precisa ser feito(se não o arquivo no respositório LOCAL, não será salvo), escrea o título na aba SUMMARY (REQUIRED)
+
+confirme o commit e PUSH ORIGIN para que o repositório na nuvem (GitHub) também atualize.
+
+No canto superior esquerdo, mostra qual é o repositório que está aberto no momento.
+
+
+
+
+Hoje aprendi como criar um repositório e como validar as alterações feitas por meio do Commit.

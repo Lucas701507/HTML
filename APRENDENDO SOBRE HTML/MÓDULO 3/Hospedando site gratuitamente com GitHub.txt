@@ -1,0 +1,3 @@
+Hospedando site gratuitamente com GitHub Pages?
+
+Seu Repositório --> Settings --> Na aba esquerda tem uma área dedicada a On page --> o principal é deixar como caminho "DOCS" 
