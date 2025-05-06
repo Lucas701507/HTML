@@ -1,0 +1,4 @@
+Hospedar um site através do GitHub
+
+New repositório --> create a new repositor --> colocar o nome, marcar publico e criar --> uploading na existing file --> arraste apenas os arquivos que compõe o site --> main e root --> aguardar alguns minutos --> f5 --> visualizar site
+ 

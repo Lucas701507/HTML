@@ -8,3 +8,5 @@ HÁ DUAS MANEIRAS DE ACESSAR AO SITE:
 
 E a 2º forma é através do README, que aceita tags do HTML5, então fazemos uma tag <a href ""> e assim que o usuário abrir o repositório, ele terá acesso ao link do site. por exemplo:
 <a href="https://lucas701507.github.io/HTML/PROJETOS%20PR%C3%81TICOS/PROJETO%201/projeto1">PROJETO 1 (Animes)</a>
+
+obs: No próprio VS code, ele permite você atualizar os commits
