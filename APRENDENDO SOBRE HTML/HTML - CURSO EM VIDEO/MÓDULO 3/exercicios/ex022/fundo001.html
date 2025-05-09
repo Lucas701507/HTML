@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de Fundo</title>
+    <!-- Criando os estilos -->
+    <style>
+
+        body {
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+
+        div.quadrado {
+            display: inline-block; /* Faz com que as divs tentem se alinhar */
+            border: 2px solid black; /* Essa borda serve para criar uma linha fina */
+            border-radius: 15px; /* Arredonda as bordas */
+            background-color: lightgray; /* Dá a cor cinza as divs */
+            width: 300px; /* esses parâmetros servem para delimitar os espaços */
+            height: 300px;
+            
+        }
+
+        /* A configuração a baixo cria alterações para cada quadrado diferente */
+        div#q1 {
+            background-color: skyblue;
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to bottom, yellow, red); /* Cria um gradient que vai de cima para baixo. */
+        }
+
+        div#q3 {
+            background-image: url(imagens/pattern001.png); /*você precisa adicionar uma imagem */
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Abaixo, 3 divs com a classe quadrado -->
+    <div class="quadrado" id="q1">
+    </div>
+    
+    <div class="quadrado" id="q2">
+    </div>
+    
+    <div class="quadrado" id="q3">
+    </div>
+
+</body>
+</html>
