@@ -1,0 +1,8 @@
+6- colocando uma imagem de fundo no site.
+
+background-image: url("caminho da imagem"), permite adicionar uma imagem.
+
+-se essa imagem for menor demais para caber na div, ele multiplica ela, compondo a div por várias imagens iguais pequenas.
+- porém se a imagem for muito grande, ele exibirá apenas um padeço dela.
+
+É possível adicionar uma imagem de fundo tanto por divs, quanto através do body, para definir a imagem final
