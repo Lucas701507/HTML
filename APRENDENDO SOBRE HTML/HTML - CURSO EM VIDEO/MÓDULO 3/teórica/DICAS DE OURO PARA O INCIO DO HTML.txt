@@ -1,0 +1,12 @@
+DICAS DE OURO PARA O INCIO DO HTML
+
+
+no CSS: 
+* {
+	margin: 0px;
+	padding:0px
+}
+Isso zera a margin e padding da página, possibilitando a personalização manual. sempre utilize para eliminar os espaço
+
+min-heigth:100vh;
+Essa propriedade do CSS diz que o elemento deve ter no mínimo a altura igual a 100% da altura da janela visível do navegador, também chamada de viewport.

@@ -1,0 +1,78 @@
+* {
+	margin: 0px;
+	padding:0px
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Div Cabeçário */
+#cabeçário {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#h1-cabeçário {
+    margin: 0;
+    font-size: 50px;
+}
+
+#parallax1 {
+    background-image: url(imagens/_joaninhas.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#parallax2 {
+    background-image: url(imagens/_livros.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex; 
+    justify-content: left; /* Alinha o texto para a esquerda */
+    align-items: center; /* Alinha a div ao centro dessa outra div */
+    padding: 20px;
+}
+
+#parallax2-texto {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    text-align: justify;
+}
+
+/* Tag para os links */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cordel {
+    padding: 10px;
+    line-height: 1.8;
+    font-size: 50px;
+    min-height: 100vh
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
