@@ -15,15 +15,38 @@ body {
 header {
   background-color: #111;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
-
 }
 
-#cabeçalho {
-  font-family: 'Orbitron', sans-serif;
+.barra-de-busca {
+  display: flex;
+  justify-content: left;
 }
 
+.barra-de-busca input[type="text"] {
+  padding: 8px 12px; /* Engorda de dentro pra fora */
+  font-size: 16px; /* Aumenta o tamanho. */
+  border: 1px solid #4b4a4a; /* define uma borda de contorno em volta */
+  border-radius: 6px 0 0 6px; /* deixa a borda arredondada. */
+  outline: none; /* Remove  a marca de seleção assim que o usuário clicar. */
+  width: 200px; /* Define a largura para exatamente 200px */
+}
+
+.barra-de-busca > button {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #242424;
+  color: white;
+  border: 1px solid #bbbbbb;
+  border-left: none;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+}
+
+.barra-de-busca button:hover {
+  background-color: #6d6d6d;
+}
 
 .header-content {
   display: flex;
@@ -31,9 +54,8 @@ header {
   align-items: center;
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+#h1-todos-os-viloes {
+  padding-top: 30px;
 }
 
 .menu {
@@ -54,23 +76,15 @@ header {
   text-decoration: underline;
 }
 
-
 /* ___________________________________________- */
 
 .container {
-  max-width: 700px;
+  max-width: 650px;
   margin: 0 auto;
   padding: 0 16px;
   box-sizing: border-box; /* Serve para garantir que o padding, não vai ultrapasar a delimitação do width */
   background-color: #f4f4f4; /* Cor de fundo da área principal */
-  box-shadow: 
-  -5px 0 5px -2px rgba(0, 0, 0, 0.4), /* esquerda */
-   5px 0 5px -2px rgba(0, 0, 0, 0.4);  /* direita */
-}
-
-.container > h1 {
-  padding: 20px;
-  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
 }
 
 img {
@@ -81,7 +95,6 @@ img {
 .container > article {
   text-align: justify;
 }
-
 
 /* ===== Parallax (usar com moderação) ===== */
 .parallax {
@@ -102,7 +115,6 @@ img {
   background-image: url(imagens/ambientes/lago.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
 }
 
 #imagem-fundo-castelo {
@@ -118,12 +130,13 @@ img {
 
 }
 
-article > h2 {
-  padding: 50px 20px 30px 20px;
+h2 {
+  padding: 20px;
 }
 
 p {
   padding: 1cap;
+  
 }
 
 img {
@@ -139,9 +152,18 @@ table {
     margin: auto;
 }
 
+#tabela-imagem-fundo {
+  background-image: url(imagens/imagem-fundo/imagem-fundo-tabela.jpeg);
+  background-size: 100vw auto;
+  background-repeat: no-repeat center center;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+
 caption {
     padding-bottom: 10px;
     color: #BFA084;
+    font-size: 25pt;
 }
 
 tbody > tr:nth-child(2n) { /* efeito zebrado */
@@ -155,3 +177,30 @@ th, td {
 }
 
 /* ______________________________________________________________- */
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.linkedin-link {
+  display: inline-flex; /* Alinha o ícone com o texto */
+  align-items: center;
+  gap: 6px;
+  color: #0e76a8;
+  text-decoration: none;
+  margin-top: 8px;
+}
+
+.linkedin-link:hover {
+  text-decoration: underline;
+}
+
+footer img {
+  display: block;
+}
+
+
+

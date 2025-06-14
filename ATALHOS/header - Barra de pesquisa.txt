@@ -1,0 +1,35 @@
+            <form class="barra-de-busca" method="get" action="">
+                <input type="text" name="pesquisa" placeholder="Buscar...">
+                <button type="submit">🔍</button>|
+            </form>
+
+
+
+.barra-de-busca {
+  display: flex;
+  justify-content: left;
+}
+
+.barra-de-busca input[type="text"] {
+  padding: 8px 12px; /* Engorda de dentro pra fora */
+  font-size: 16px; /* Aumenta o tamanho. */
+  border: 1px solid #4b4a4a; /* define uma borda de contorno em volta */
+  border-radius: 6px 0 0 6px; /* deixa a borda arredondada. */
+  outline: none; /* Remove  a marca de seleção assim que o usuário clicar. */
+  width: 200px; /* Define a largura para exatamente 200px */
+}
+
+.barra-de-busca > button {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #242424;
+  color: white;
+  border: 1px solid #bbbbbb;
+  border-left: none;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+}
+
+.barra-de-busca button:hover {
+  background-color: #6d6d6d;
+}
